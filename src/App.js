@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    document.title = "FactoryFouR";
+    document.title = "FactoryFour";
   }, []);
 
   return (

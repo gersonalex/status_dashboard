@@ -56,7 +56,7 @@ export default function CardWrapper() {
   return (
     <Wrapper>
       <CardWrapperStyle>
-        {!loading && <Card services={services} error={error} />}
+        {!loading && <Card services={services} />}
       </CardWrapperStyle>
     </Wrapper>
   );

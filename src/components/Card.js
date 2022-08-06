@@ -1,7 +1,7 @@
 import { CardStyle } from "../styles/CardStyle";
 import { API_OPTIONS } from "../settings";
 
-export default function Card({ services, apiName }) {
+export default function Card({ services }) {
   const servicesNames = API_OPTIONS;
 
   //   console.log(services);
