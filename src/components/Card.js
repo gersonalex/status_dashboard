@@ -31,7 +31,7 @@ export default function Card({ services }) {
                 </>
               ) : (
                 <>
-                  <p className="success">Success</p>
+                  <p className="success">Healthy</p>
                   <p className="hostname">{service.data.hostname}</p>
                   <p>{service.data.time}</p>
                 </>
